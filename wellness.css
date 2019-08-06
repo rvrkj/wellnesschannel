@@ -3,6 +3,7 @@ body{
     color: #444;
     font-family: 'Muli', sans-serif;
     margin: 0px;
+
   }
   
   p{
@@ -17,7 +18,18 @@ body{
   .container{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
   }
+
+  .card{
+    justify-content: center;
+  }
+
+  /* .box{
+    flex: 1;
+    width: 300px;
+    justify-content: center;
+  } */
   
   .container > div{
     background-color: #ffffff;
@@ -26,7 +38,7 @@ body{
     width: 330px;
   }
   
-  h3{
+  h4{
     font-family: 'Montserrat', sans-serif;
       text-align: center;
       padding-top:10px;
@@ -47,6 +59,12 @@ body{
       margin-bottom: 100px;
   }
   
+  .rowHeight{
+    background-color: #333333;
+    color: #ffffff;
+    height: 100px;
+
+    
   
   
   
